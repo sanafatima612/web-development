@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Latest News</h1>
+
+        <!-- Tab List -->
+        <div class="tablist">
+            <button class="tablink active" onclick="openTab(event, 'Admission')">Admission</button>
+            <button class="tablink" onclick="openTab(event, 'Examination')">Examination</button>
+            <button class="tablink" onclick="openTab(event, 'Jobs')">Jobs</button>
+            <button class="tablink" onclick="openTab(event, 'PUGC')">PUGC</button>
+            <button class="tablink" onclick="openTab(event, 'IT_Department')">IT Department</button>
+            <button class="tablink" onclick="openTab(event, 'Accounts')">Accounts</button>
+            <button class="tablink" onclick="openTab(event, 'Seminar')">Seminar</button>
+        </div>
+
+        <!-- Tab Content: Admission -->
+        <div id="Admission" class="tabcontent">
+            <h2>Admission Notice</h2>
+            <p>The Online Admission Forms for the Academic Year 2024-25 in the following Departments of Punjab University Gujranwala Campus are available at: <a href="http://admissions.pu.edu.pk" target="_blank">http://admissions.pu.edu.pk</a>...</p>
+            <p><b>Date:</b> 10 Jul 2024</p>
+
+            <h2>ERozgaar Freelancing</h2>
+            <p>ای روزگار یونیورسٹی آف دی پنجاب گوجرانوالہ کیمپس کے تحت شارٹ کورسز  میں داخلوں کا آغاز کر دیا گیا ہے۔</p>
+            <p><b>Date:</b> 16 May 2024</p>
+        </div>
+
+        <!-- Tab Content: Examination -->
+        <div id="Examination" class="tabcontent" style="display:none">
+            <h2>Entry Test Result - MBA 1.5 Years</h2>
+            <p>Interview MBA (1.5 Years) Successful candidates appearing in the interview are advised to bring the following documents...</p>
+            <p><b>Date:</b> 19 Sep 2023</p>
+        </div>
+
+        <!-- Tab Content: Jobs -->
+        <div id="Jobs" class="tabcontent" style="display:none">
+            <h2>Prime Minister's Internship Program</h2>
+            <p>Work-for-Skills Internship Program (WSIP) Program Brief Under the Work-for-Skills component of Ba-Ikhtiyar Naujawan Internship Program...</p>
+            <p><b>Date:</b> 07 Apr 2023</p>
+        </div>
+
+        <!-- Tab Content: PUGC -->
+        <div id="PUGC" class="tabcontent" style="display:none">
+            <h2>Punjab University Top Ranking</h2>
+            <p>PU is ranked among the top 301-400 universities in the world in the subject of Computer Science in Times Higher Education Ranking 2023...</p>
+            <p><b>Date:</b> 03 Jul 2023</p>
+
+            <h2>A Friendly Cricket Match</h2>
+            <p>Hasan Ali is a cricket player, who plays for the Pakistan National Cricket Team. He has been a part of the team since 2017...</p>
+            <p><b>Date:</b> 21 Mar 2023</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
